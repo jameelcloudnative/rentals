@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "format:Dr-{###}",
  "creation": "2025-05-02 00:20:14.421034",
@@ -9,8 +10,8 @@
   "enable",
   "first_name",
   "last_name",
-  "license_number",
   "column_break_tqzp",
+  "license_number",
   "phone",
   "profile_image"
  ],
@@ -44,7 +45,7 @@
   },
   {
    "fieldname": "phone",
-   "fieldtype": "Phone",
+   "fieldtype": "Data",
    "label": "Phone"
   },
   {
@@ -56,7 +57,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-05-02 01:31:34.922660",
+ "modified": "2025-05-02 02:15:43.056849",
  "modified_by": "Administrator",
  "module": "Rentals",
  "name": "Driver",
