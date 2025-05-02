@@ -10,6 +10,7 @@
   "enable",
   "first_name",
   "last_name",
+  "full_name",
   "column_break_tqzp",
   "license_number",
   "phone",
@@ -52,12 +53,20 @@
    "fieldname": "profile_image",
    "fieldtype": "Attach Image",
    "label": "Profile Image"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "options": "f\"{first_name}{last_name}\"",
+   "read_only": 1
   }
  ],
  "grid_page_length": 50,
+ "image_field": "profile_image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-05-02 02:15:43.056849",
+ "modified": "2025-05-03 01:47:07.441496",
  "modified_by": "Administrator",
  "module": "Rentals",
  "name": "Driver",
